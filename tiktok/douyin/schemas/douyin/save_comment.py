@@ -1,0 +1,77 @@
+schema = {
+    "type": "object",
+    "properties": {
+        "cid": {"type", "string"},
+        "text": {"type", "string"},
+        "user": {
+            "type": "object",
+            "properties": {
+                "uid": {"type": "string"},
+                "gender": {"type": "integer"},
+                "ins_id": {"type": "string"},
+                "region": {"type": "string"},
+                "secret": {"type": "integer"},
+                "status": {"type": "integer"},
+                "is_star": {"type": "boolean"},
+                "room_id": {"type": "integer"},
+                "sec_uid": {"type", "string"},
+                "birthday": {"type", "string"},
+                "location": {"type", "string"},
+                "nickname": {"type", "string"},
+                "short_id": {"type", "string"},
+                "has_email": {"type": "boolean"},
+                "unique_id": {"type": "string"},
+                "user_rate": {"type": "integer"},
+                "avatar_uri": {"type": "string"},
+                "has_orders": {"type": "boolean"},
+                "aweme_count": {"type": "integer"},
+                "create_time": {"type": "integer"},
+                "hide_search": {"type": "boolean"},
+                "is_verified": {"type": "boolean"},
+                "school_name": {"type": "string"},
+                "school_type": {"type": "integer"},
+                "avatar_thumb": {
+                    "type": "object",
+                    "properties": {
+                        "uri": {"type": "string"},
+                        "url_list": {"type": "array"},
+                    }
+                },
+                "avatar_larger": {
+                    "type": "object",
+                    "properties": {
+                        "uri": {"type": "string"},
+                        "url_list": {"type": "array"},
+                    }
+                },
+                "constellation": {"type": "integer"},
+                "follow_status": {"type": "integer"},
+                "hide_location": {"type": "boolean"},
+                "live_commerce": {"type": "boolean"},
+                "follower_count": {"type": "integer"},
+                "live_agreement": {"type": "integer"},
+                "need_recommend": {"type": "integer"},
+                "comment_setting": {"type": "integer"},
+                "follower_status": {"type": "integer"},
+                "following_count": {"type": "integer"},
+                "total_favorited": {"type": "integer"},
+                "with_shop_entry": {"type": "boolean"},
+                "authority_status": {"type": "integer"},
+                "favoriting_count": {"type": "integer"},
+                "is_gov_media_vip": {"type": "boolean"},
+                "commerce_user_level": {"type": "integer"},
+                "with_commerce_entry": {"type": "boolean"},
+                "is_discipline_member": {"type": "boolean"},
+                "unique_id_modify_time": {"type": "integer"},
+                "with_fusion_shop_entry": {"type": "boolean"},
+                "enterprise_verify_reason": {"type": "string"}
+            },
+        },
+        "status": {"type": "integer"},
+        "aweme_id": {"type": "string"},
+        "digg_count": {"type": "integer"},
+        "create_time": {"type": "integer"},
+        "user_digged": {"type": "integer"},
+        "is_author_digged": {"type": "boolean"}
+    }
+}
